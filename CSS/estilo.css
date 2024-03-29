@@ -1,0 +1,183 @@
+.sacola 
+   { 
+       position: absolute;
+       top: 0;
+       right: 0;
+   } 
+   .sacolaimg 
+   {
+    /*background-image: url(../img/sacola.png); */
+    float: right;
+    width: 25px;
+   }
+    ul
+    {
+      list-style: none;
+    }
+    .menu-opcoes ul 
+    {  
+      font-size: 15px; 
+      display: inline;
+    } 
+    header 
+    { 
+      position: relative;
+      height: 150px;
+    }
+    
+    .menu-opcoes a 
+    { 
+      float: right;
+     color: #003366; 
+     margin-left: 20px;
+    }
+    .menu-opcoes, .menu-opcoes ul
+    {
+      height: 0px;
+      padding: 0;
+    }
+
+    body 
+    {
+        color: #003366;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .busca, 
+ .menu-departamentos { 
+   background-color: #dcdcdc; 
+   font-weight: bold; 
+   text-transform: uppercase; 
+   margin-right: 10px; 
+   width: 230px; 
+ } 
+ 
+ .busca h2, 
+ .busca form, 
+ .menu-departamentos h2 
+ { 
+   margin: 10px; 
+ }
+ 
+ .menu-departamentos li 
+ { 
+   background-color: white; 
+   margin-bottom: 1px; 
+   padding: 5px 10px; 
+ } 
+ 
+ .menu-departamentos a 
+ { 
+   color: #333333; 
+   text-decoration: none; 
+ }
+ .busca, 
+.menu-departamentos { 
+float: left; 
+} 
+.menu-departamentos { 
+clear: left; 
+} 
+ 
+  .menu-departamentos { 
+  margin-top: 10px; 
+  padding-bottom: 10px; 
+  }
+  .painel
+  {
+    margin: 10px 0;
+    padding: 10px;
+    width: 600px;
+  }
+  .painel li
+  {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+  }
+  .painel h2 { 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-bottom: 10px; 
+  } 
+  
+  .painel a 
+  { 
+    color: #333; 
+    font-size: 14px; 
+    text-align: center; 
+    text-decoration: none;
+  }
+  
+  .novidade
+  {
+    float: left;
+    background-color: #0991e0;
+    margin-left: 100px; 
+
+  }
+  .novidade img
+  {
+    width: 100px;
+  }
+  .mais-vendidos img
+  {
+    width: 100px;
+  }
+  article{
+    height: 600px;
+  }
+  article li
+  {
+    display: inline;  
+  }
+  article h2{
+    text-align: center;
+  }
+  .mais-vendidos
+  {
+    float: right;
+    background-color: #dcdcf5;
+  }
+
+  footer
+  {
+    text-align: center;
+    color: red;
+    display: block;
+    bottom: 10px;
+    font-family:'Courier New', Courier, monospace;
+  }
+  .fundo-bege
+  {
+    background-color: aquamarine;
+  }
+  h1{
+    margin: 0;
+    display: inline;
+  }
+  h1 img
+  {
+    height: 130px;
+    width: 110px;
+  }
+.nomemoda
+{
+  display: inline;
+  color: #003366;
+  text-align: center;
+  font-size: xx-large;
+  /*position: relative;*/
+  margin-left: 500px;
+  bottom: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 600ms ease-in-out;
+}
+
+.nomemoda:hover
+{
+  background: rgb(133, 158, 157);
+}
